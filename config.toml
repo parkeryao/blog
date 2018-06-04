@@ -1,5 +1,5 @@
 baseURL = "https://parkeryao.github.io/"
-languageCode = "en-us"
+languageCode = "zh-CN"
 title = "侬伢子"
 theme = "hyde"
 paginate = 5 #分页每页记录数
@@ -26,6 +26,7 @@ canonifyurls = true
   [params.social]
     linkedin = "https://cn.linkedin.com/in/zifeng"
 
+
 [[menu.main]] #页面菜单参数
   name = "侬伢子的博客"
   weight = -120
@@ -33,7 +34,7 @@ canonifyurls = true
   url = "/"
 
 [[menu.main]]
-  name = "About me"
+  name = "关于我"
   weight = -110
   identifier = "about"
   url = "/about"

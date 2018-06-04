@@ -8,6 +8,7 @@ draft: false
 
 大体步骤如下：
 >
+
 1. 清除git全局设置
 2. 生成新的SSH keys
 3. 添加并识别新的SSH keys私钥
