@@ -2,3 +2,38 @@ baseURL = "https://parkeryao.github.io/"
 languageCode = "en-us"
 title = "侬伢子"
 theme = "hyde"
+paginate = 5 #分页每页记录数
+DisqusShortname = "侬伢子" #评论时显示的名字
+Copyright = "All rights reserved - 2018" #版权
+canonifyurls = true 
+
+[params]
+  description = "对不起，我是程序猿~" #加段提升逼格的副标题
+  cover = "images/xxx.jpg" #自己找的博客封面，要够大够酷
+  author = "侬伢子" #文章作者
+  authorlocation = "Changsha, China" #作者位置
+  authorwebsite = "https://brent-li.github.io/" #作者站点
+  bio= "某公司|Team Lead" #作者简介
+  logo = "images/xxx.jpg" #作者头像
+  # googleAnalyticsUserID = "UA-79101-12" 
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  githubName = "parkeryao" #github用户名
+  twitterName = "yrBE20LdSQUCVcx" 
+  # facebookName = ""
+  # linkedinName = "" #LinkedIn用户名
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false #是否显示Hugo水印
+  [params.social]
+    linkedin = "https://cn.linkedin.com/in/zifeng"
+
+[[menu.main]] #页面菜单参数
+  name = "侬伢子的博客"
+  weight = -120
+  identifier = "blog"
+  url = "/"
+
+[[menu.main]]
+  name = "About me"
+  weight = -110
+  identifier = "about"
+  url = "/about"
